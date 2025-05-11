@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Formulario</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="quadro">
+            <div class="texto-principal">
+                <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+                <br>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</p>
+            </div>
+
+            <form id="form" class="formulario">
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo*">
+                <a></a>
+                <input type="text" name="email" id="email" placeholder="Email*">
+                <a></a>
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone*">
+                <a></a>
+                <textarea class="mensagem" id="mensagem" placeholder="Mensagem*"></textarea> <br>
+                <a></a>
+
+                <p class="obs">* campos obrigatorios</p>
+
+                <button type="submit" id="btn" class="btn">Enviar</button>
+
+            </form>
+
+            <script src="./src/js/validacao.js"></script>
+        </section>
+
+    </main>
+</body>
+
+</html>
